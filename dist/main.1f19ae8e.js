@@ -134,7 +134,7 @@ option = {
       name: "Vue",
       max: 100
     }, {
-      name: "React",
+      name: "JavaScript",
       max: 100
     }, {
       name: "项目开发",
@@ -148,7 +148,7 @@ option = {
     name: "Budget vs spending",
     type: "radar",
     data: [{
-      value: [70, 70, 20, 20, 50, 90],
+      value: [70, 65, 60, 60, 50, 80],
       name: "能力雷达"
     }]
   }]
@@ -183,7 +183,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56401" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54294" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
